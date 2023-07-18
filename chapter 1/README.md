@@ -1,4 +1,4 @@
-# Chapter 1:Getting the grips with test driven development
+# Chapter 1: Getting the grips with test driven development
 
 This chapter introduce the principles and benefits of Test Driven Development.
 
