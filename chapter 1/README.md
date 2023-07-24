@@ -119,7 +119,26 @@ They test the entire functionality of the application, ensuring the project deli
 
 ### The iterative approach of TDD
 
+The principle of TDD is: Write a unit test for a peace of functionality before implementing it.
+
+The phases of TDD are:
+
+1. Red phase: We consider what we want to test and translate the requirements into a test
+2. Green phase: We swap from test code to implementation, writing just enoght code to make the failing test pass
+3. Refactor phase: This is about cleaning up both, implementation code and test
+4. We repeat this process until all requirements are tested and implemented and all tests pass
+
 ### TDD best practices
+
+AAA(Arrange, Act, Assert) Pattern:
+
+1. Arrange: We setup part of the test. We set up the UUT(unit under test) and all dependencies that it requires
+2. Act: We perform the actions specified by the tests scenario. This steps uses the preconditions and inputs defined in Arrange
+3. Assert: We confirm that UUT behaves according to requirements
+4. If there is no more steps, the tests is considered passed. If there is more steps then we go back to Act phase
+5. The Act and Assert steps can be repeated as many times as necessary for the test scenario. Just you should avoid to write lengthy or complicated tests.
+
+Control scope:
 
 ## Understanding the benefits and use of TDD
 
